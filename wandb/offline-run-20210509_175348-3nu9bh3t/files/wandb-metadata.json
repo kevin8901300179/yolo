@@ -1,0 +1,35 @@
+{
+    "os": "Linux-4.15.0-129-generic-x86_64-with-glibc2.17",
+    "python": "3.8.9",
+    "heartbeatAt": "2021-05-09T09:53:48.758338",
+    "startedAt": "2021-05-09T09:53:48.236213",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "16",
+        "--epochs",
+        "300",
+        "--data",
+        "../testtrain/data.yaml",
+        "--cfg",
+        "models/yolov5s.yaml",
+        "--weights",
+        ""
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5.git",
+        "commit": "6e8c5b767866ecebe08dc1b673537348394680f3"
+    },
+    "email": "kevin8901300179@gmail.com",
+    "root": "/home/kevin/yolov5work/yolov5",
+    "host": "kevin-Swift-SF314-54",
+    "username": "kevin",
+    "executable": "/usr/bin/python3.8"
+}

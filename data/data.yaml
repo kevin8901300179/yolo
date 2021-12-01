@@ -1,0 +1,6 @@
+train: /home/kevin/yolov5work/train/image/train/
+val : /home/kevin/yolov5work/train/image/train/
+
+nc: 3
+
+names: ['rice', 'noodle','salmom']
